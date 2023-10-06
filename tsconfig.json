@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+      /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+      "target": "ESNext",
+      /* Specify what module code is generated. */
+      "module": "Node16",
+      /* Specify an output folder for all emitted files. */
+      "outDir": "./build",
+      /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+      "esModuleInterop": true,
+      /* Ensure that casing is correct in imports. */
+      "forceConsistentCasingInFileNames": true,
+      /* Enable all strict type-checking options. */
+      "strict": true,
+      /* Skip type checking all .d.ts files. */
+      "skipLibCheck": true,
+      "moduleResolution": "NodeNext",
+
+  },
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+
+  }
+
+}
+  
+
